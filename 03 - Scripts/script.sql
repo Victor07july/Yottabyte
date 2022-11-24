@@ -41,10 +41,10 @@ CREATE TABLE public.dim_produto (
 
 ALTER SEQUENCE public.dim_produto_sk_produto_seq OWNED BY public.dim_produto.sk_produto;
 
-CREATE SEQUENCE public.din_cliente_sk_cliente_seq;
+CREATE SEQUENCE public.dim_cliente_sk_cliente_seq;
 
-CREATE TABLE public.din_cliente (
-                sk_cliente INTEGER NOT NULL DEFAULT nextval('public.din_cliente_sk_cliente_seq'),
+CREATE TABLE public.dim_cliente (
+                sk_cliente INTEGER NOT NULL DEFAULT nextval('public.dim_cliente_sk_cliente_seq'),
                 nk_cliente INTEGER NOT NULL,
                 nm_cliente VARCHAR(50) NOT NULL,
                 preferencia_produto VARCHAR(30) NOT NULL,
@@ -55,7 +55,7 @@ CREATE TABLE public.din_cliente (
 );
 
 
-ALTER SEQUENCE public.din_cliente_sk_cliente_seq OWNED BY public.din_cliente.sk_cliente;
+ALTER SEQUENCE public.dim_cliente_sk_cliente_seq OWNED BY public.dim_cliente.sk_cliente;
 
 CREATE TABLE public.ft_venda (
                 sk_produto INTEGER NOT NULL,
@@ -78,9 +78,9 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
-ALTER TABLE public.ft_venda ADD CONSTRAINT din_cliente_ft_venda_fk
+ALTER TABLE public.ft_venda ADD CONSTRAINT dim_cliente_ft_venda_fk
 FOREIGN KEY (sk_cliente)
-REFERENCES public.din_cliente (sk_cliente)
+REFERENCES public.dim_cliente (sk_cliente)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
