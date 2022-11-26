@@ -43,7 +43,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
            
  ## Desenvolvedores/Contribuintes :octocat:
            
-| [<img src="https://avatars.githubusercontent.com/u/63819323?v=4" width=115><br><sub>Gabriel Rolim</sub>](https://github.com/Gabriel-Venancio) |  [<img src="https://avatars.githubusercontent.com/u/88052231?v=4" width=115><br><sub>Leonardo Meneguelli</sub>](https://github.com/LeonardoMeneguelli1) |
+| [<img src="https://avatars.githubusercontent.com/u/70461321?v=4" width=115><br><sub>Victor Daniel</sub>](https://github.com/Victor07july) |  [<img src="https://avatars.githubusercontent.com/u/71741611?v=4" width=115><br><sub>Diego Calmon</sub>](https://github.com/Diego-codecell) |
 | :---: | :---:
        
 ## Licença 
