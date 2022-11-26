@@ -44,7 +44,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  ## Desenvolvedores/Contribuintes :octocat:
            
 | [<img src="https://avatars.githubusercontent.com/u/70461321?v=4" width=115><br><sub>Victor Daniel</sub>](https://github.com/Victor Daniel) |  [<img src="https://avatars.githubusercontent.com/u/71741611?v=4" width=115><br><sub>Diego Calmon</sub>](https://github.com/Diego-codecell) |  [<img
-| :---: | :---: |
+|
        
 ## Licença 
 
