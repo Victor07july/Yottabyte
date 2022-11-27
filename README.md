@@ -7,7 +7,7 @@
 ## Descrição do Projeto
 
 A loja de informatica Yottabyte's Store (fictícia), situada no município de Duque de Caxias, Rio de Janeiro, é uma loja bem frequentada no bairro.
-Visando melhorar o entendimento de seu negócio, a responsável pela locadora, o Sr Marcelo Soares, solicitou a implantação de um projeto de BI que fosse suficientemente capaz de exibir os principais dados sobre o funcionamento do negócio, como clientes, tipos de carros mais alugados, e a parte financeira.
+Visando melhorar o entendimento de seu negócio, a responsável pela locadora, o Sr Marcelo Soares, solicitou a implantação de um projeto de BI que fosse suficientemente capaz de exibir os principais dados sobre o funcionamento do negócio, como preferencia dos clientes, tipos de produtos mais vendidos e a parte financeira.
 <br>
 <br>
 O projeto prevê a construção de um Data Warehouse com atualizações diárias realizadas sempre ao meio-dia, além de um Dashboard contendo todas as informações.
@@ -50,4 +50,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2021 - Your Car
+Copyright :copyright: 2022 - Yottabyte's Store
